@@ -1,0 +1,18 @@
+EXPERIMENT_PARAMS:
+  drug: 'ALL'
+  tissue: 'ESO'
+  mutation_types: ['Missense_Mutation']
+  month_cutoff: 1
+  exp_suffix: "MS"
+  vaf_cutoff: 0.2
+  pimary_only: False
+  num_bins: 20
+
+
+
+FILES:
+  mutation_file: '../data/tmb_mskcc_2018/data_mutations.txt'
+  sample_file: "../data/tmb_mskcc_2018/data_clinical_sample.txt"
+  patient_file: "../data/tmb_mskcc_2018/data_clinical_patient.txt"
+  network_file: "../data/networks/PPI_Graph.pk"
+  
