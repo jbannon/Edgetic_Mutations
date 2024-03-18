@@ -115,8 +115,7 @@ def main(config:Dict):
 	
 
 	for idx, row in info.iterrows():
-		if idx>2:
-			continue
+		
 		patient_graph = PPI_Graph.copy()
 		sample = row['SAMPLE_ID']
 		survival_status.append(int(row['OS_STATUS'][0]))
