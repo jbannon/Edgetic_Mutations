@@ -1,11 +1,8 @@
 import time 
 from collections import defaultdict
-import matplotlib.pyplot as plt
 import argparse
 from typing import Dict, Union, List
 import sys
-import matplotlib.pyplot as plt
-from scipy import stats
 import pandas as pd
 import numpy as np 
 import networkx as nx
@@ -14,16 +11,8 @@ import os
 import yaml 
 import NetworkCurvature as nc
 import pickle
-import NetworkCurvature as nc
-import statsmodels.stats.multitest as mt
-from scipy.stats import mannwhitneyu, wilcoxon
 import tqdm
-import pandas as pd 
-import numpy as np 
-import yaml 
-from typing import Dict, List
-import pickle
-import os
+
 
 
 def unpack_parameters(
