@@ -114,7 +114,7 @@ def main(config:Dict):
 	scaled_curvature_features = []
 	
 
-	for idx, row in info.iterrows():
+	for idx, row in tqdm.tqdm(info.iterrows(),total = info.shape[0]):
 		
 		patient_graph = PPI_Graph.copy()
 		sample = row['SAMPLE_ID']
